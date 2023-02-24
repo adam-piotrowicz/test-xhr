@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head id="ap123">
+<title>Test page</title>
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="HandheldFriendly" content="true">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<link rel="stylesheet" type="text/css" href="styles/style.css">
+<link rel="icon" href="https://dt-cdn.net/images/favicon-32x32-32-26d70a5cff.png">
+<script src="js/scripts.js"></script>
+<script src="js/user.js"></script>
+<script src="js/cors.js?_dc=1647540195988&isCorporate=false"></script>
+<!--<script src="js/error.js"></script>-->
+<script>
+var string = {sessionproperty: "Test456"};
+dtrum.sendSessionProperties(null,null,string);
+</script>
+</head>
+<!--<body>-->
+<body onload="loadFirstXhrs()">
+<h2>Test page</h2>
+<img src="images/xhr.png?lang=eng&_dc=164668113714" width="50">
+<br><br>
+<div id="demo1"></div>
+<button type="button" onclick="loadXhrLocal1()" data-dtname="18">XHR test local 1</button>
+<br><br>
+<div id="demo2"></div>
+<button id="18" type="button" onclick="loadXhrLocal2()" data-dtname="18">XHR test local 2</button>
+<br><br>
+<div id="demo-cors1"></div>
+<button type="button" onclick="loadXhrCors1()">XHR test CORS 1</button>
+<br><br>
+<div id="demo-cors2"></div>
+<button type="button" onclick="loadXhrCors2()">XHR test CORS 2</button>
+<br><br>
+<form action="2nd-page.html">
+    <input type="submit" value="Go to 2nd page" />
+</form>
+<br>
+        <div>
+            User:<br>
+            <input type="text" id="username"/>
+            <button onclick="identifyUser()">-></button><br>
+        </div>
+<br>
+<button type="button" onclick="dtrum.endSession()">End session</button>
+<br><br><br>
+<div id="duser">TestUser-Css</div>
+</body>
+</html>

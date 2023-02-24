@@ -1,0 +1,8 @@
+html { 
+	background: url(../images/wallpaper.svg) no-repeat center bottom fixed; 
+    	background-size: cover;
+}
+body {
+	color: white
+}	
+
