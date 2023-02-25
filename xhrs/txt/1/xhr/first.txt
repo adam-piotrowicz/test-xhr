@@ -1,1 +1,1 @@
-This message means that the XHR response was received!
+This is TEXT response of local #1 XHR request

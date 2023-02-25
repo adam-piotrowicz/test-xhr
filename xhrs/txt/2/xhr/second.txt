@@ -1,1 +1,1 @@
-SECOND local TEST SUCCEDED!
+This is TEXT response of local #2 XHR request
