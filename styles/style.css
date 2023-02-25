@@ -27,3 +27,9 @@ div.big {
 .main {
 	width: 450px;
 	}
+
+.result {
+	font-style: normal;
+	font-size: 12px;
+	font-family: Courier;
+	}

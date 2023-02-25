@@ -1,1 +1,1 @@
-FIRST loca TEST SUCCEDED!
+This message means that the XHR response was received!
