@@ -43,3 +43,9 @@ function loadXhrLocal2() {
   xhttp.setRequestHeader('X-ReqAttr', 'test-value2');
   xhttp.send();
 }
+
+    function SessionUrl() {
+        var url = "https://ap-man.lab.dynatrace.org/e/cce718cf-c3d0-4543-bce6-19bdc48a9b32/ui/user-sessions/%2B" + document.getElementById("username").value;
+        location.href = url;
+        return false;
+    }
