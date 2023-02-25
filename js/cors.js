@@ -2,7 +2,7 @@ function loadXhrCors1() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo-cors1").innerHTML =
+      document.getElementById("demo3").innerHTML =
       this.responseText;
     }
   };
@@ -16,7 +16,7 @@ function loadXhrCors2() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
-      document.getElementById("demo-cors2").innerHTML =
+      document.getElementById("demo4").innerHTML =
       this.responseText;
     }
   };
