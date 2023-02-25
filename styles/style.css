@@ -6,3 +6,24 @@ body {
 	color: white
 }	
 
+div {
+	border: 1px solid yellow;
+	padding: 10px 10px 10px 10px;
+	margin: 5px 5px 5px 5px;
+	border-style: dotted;
+	width: 400px;
+	display: inline-block;
+	}
+	
+div.big {
+        border: 1px solid yellow;
+        padding: 10px 10px 10px 10px;
+        margin: 5px 5px 5px 5px;
+        border-style: dotted;
+        width: 600px;
+        display: inline-block;
+        }
+
+.main {
+	width: 450px;
+	}
