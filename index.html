@@ -31,22 +31,22 @@
 	
 	<fieldset class="main"><legend>XHR tests area</legend>
 		<br>
-		<button id="but-B" type="button" onclick="loadXhrLocal1()" data-dtname="test-A">XHR LOCAL #1</button>
+		<button class="btn btn--primary" id="but-B" type="button" onclick="loadXhrLocal1()" data-dtname="test-A">XHR LOCAL #1</button>
 		<div id="demo1" class="result"></div>
 		
 		<br><br>
 		
-		<button id="but-B" type="button" onclick="loadXhrLocal2()" data-dtname="test-B">XHR LOCAL 2</button>
+		<button class="btn btn--primary" id="but-B" type="button" onclick="loadXhrLocal2()" data-dtname="test-B">XHR LOCAL 2</button>
 		<div id="demo2" class="result"></div>
 		
 		<br><br>		
 
-		<button id="but-C" type="button" onclick="loadXhrCors1()" data-dtname="test-C">XHR REMOTE #1</button>
+		<button class="btn btn--primary" id="but-C" type="button" onclick="loadXhrCors1()" data-dtname="test-C">XHR REMOTE #1</button>
 		<div id="demo3" class="result"></div>
 
 		<br><br>
 		
-		<button id="but-D" type="button" onclick="loadXhrCors2()" data-dtname="test-D">XHR REMOTE 2</button>
+		<button class="btn btn--primary" id="but-D" type="button" onclick="loadXhrCors2()" data-dtname="test-D">XHR REMOTE 2</button>
 		<div id="demo4" class="result"></div>
 	</fieldset>
 
@@ -54,7 +54,7 @@
 
 	<fieldset class="main"><legend>Redirescts area</legend>	
 		<form action="2nd-page.html">
-	    	<input type="submit" value="Go to 2nd page" />
+	    	<input class="btn btn--primary" type="submit" value="Go to 2nd page" />
 		</form>
 	</fieldset>
 
@@ -62,21 +62,21 @@
 
        	<fieldset class="main"><legend>User identification</legend>
 		<input type="text" id="username"/>
-            	<button onclick="identifyUser()">Set</button>&nbsp;&nbsp;&nbsp;&nbsp;
-		<button onclick="window.open(GetSessionUrl(),'_blank')">Open user session</button><br>
+            	<button class="btn btn--primary" onclick="identifyUser()">Set</button>&nbsp;&nbsp;&nbsp;&nbsp;
+		<button class="btn btn--primary" onclick="window.open(GetSessionUrl(),'_blank')">Open user session</button><br>
 	</fieldset>
 
 	<br>
 	
 	<fieldset class="main"><legend>JS errors</legend>
 	
-	<button onclick="handleClick()">Click me!</button>
+	<button class="btn btn--primary" onclick="handleClick()">Click me!</button>
 		
 	</fieldset>
 	
 	<br>
 	
-		<button type="button" onclick="dtrum.endSession()">End session</button>
+		<button class="btn btn--primary" type="button" onclick="dtrum.endSession()">End session</button>
 
 </body>
 </html>
