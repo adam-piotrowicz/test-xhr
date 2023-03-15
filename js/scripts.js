@@ -9,7 +9,7 @@ function identifyUser() {
 
 //  Get the URL of the User Session
 function GetSessionUrl() {
-	return "https://ap-man.lab.dynatrace.org/e/cce718cf-c3d0-4543-bce6-19bdc48a9b32/ui/user-sessions/%2B" + document.getElementById("username").value
+	return "https://ap-man.dynatrace.org/e/413b0e9b-fa40-4f04-9bda-5a67bba5261d/ui/user-sessions/%2B" + document.getElementById("username").value
 }
  
 
