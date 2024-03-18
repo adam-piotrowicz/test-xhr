@@ -6,7 +6,7 @@ function loadXhrCors1() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "http://sup-docs.lab.dynatrace.org/cors/test-cors.txt", true);
+  xhttp.open("GET", "http://ap-dkr.lab.dynatrace.org/cors/cors-example1.txt", true);
   xhttp.setRequestHeader('X-PING', 'pingpong');
   xhttp.setRequestHeader('X-ReqAttr', 'test-value-cors1');
   xhttp.send();
@@ -20,7 +20,7 @@ function loadXhrCors2() {
       this.responseText;
     }
   };
-  xhttp.open("GET", "http://ap-ubuntu.lab.dynatrace.org/xhr/gsu-cors.txt", true);
+  xhttp.open("GET", "http://ap-dkr.lab.dynatrace.org/cors/cors-example2.txt", true);
   /*xhttp.open("GET", "http://ap-tomcat.lab.dynatrace.org:8000/", true);*/
   xhttp.setRequestHeader('X-PING', 'pingpong');
   xhttp.setRequestHeader('X-ReqAttr', 'test-value-cors2');
